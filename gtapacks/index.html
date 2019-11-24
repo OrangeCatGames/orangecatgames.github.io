@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="icon" href="images/favicon.ico">
+    <title>Origami Network - GTA Packs</title>
+
+    <meta property="og:image" content="images/og_image.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?7112" media="screen">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+
+    <div class="abs-bg">
+    </div>
+    <div class="header">
+        <div class="content">
+            <a href="https://origaminet.github.io" target="_blank"><img src="images/origami_net.png" class="logo"></a>
+
+            <div class="social">
+                <a href="https://vk.com/origami__network" target="_blank" class="vk-social"></a>
+                <a href="https://www.instagram.com/origaminetwork/ " target="_blank" class="insta-social"></a>
+                <a href="https://www.youtube.com/c/AGEEV" target="_blank" class="youtube-social"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="first-block">
+        <img src="images/main-m.png" class="flame-title">
+        <div class="buttons-fb">
+            <div class="download-btn" onclick="scrollToAnchor('grey');">Посмотреть сборки</div>
+        </div>
+    </div>
+
+    <div class="grey-block" id="grey">
+        <div class="content">
+
+            <div class="pack-new-block" style="margin-bottom: 5%;">
+                <div class="pack-block">
+                    <span class="pack-top">Grand Theft Auto Winter Perfection 2020</span>
+                    <div class="pack-preview">
+                        <img src="images/gtawp2020.png" class="pack-img">
+                        <a class="pack-text" rel="pdownloads" data-event-id="1668" data-window-width="960" data-window-height="645"><img src="images/gtawp2020_text.png" class="pack-img"></a>
+                    </div>
+                    <div class="download-btn pack-btn" rel="pdownloads" data-event-id="1668" data-window-width="960" data-window-height="645">СКАЧАТЬ ПАК</div>
+                </div>
+                <div class="pack-block">
+                    <span class="pack-top">Grand Theft Auto Russian Advanced</span>
+                    <div class="pack-preview">
+                        <img src="images/gtara.png" class="pack-img">
+                        <a class="pack-text" rel="pdownloads" data-event-id="1671" data-window-width="960" data-window-height="645"><img src="images/gtara_text.png" class="pack-img"></a>
+                    </div>
+                    <div class="download-btn pack-btn" rel="pdownloads" rel="pdownloads" data-event-id="1671" data-window-width="960" data-window-height="645">СКАЧАТЬ ПАК</div>
+                </div>
+                <div class="pack-block">
+                    <span class="pack-top">Grand Theft Auto Cyberpunk</span>
+                    <div class="pack-preview">
+                        <img src="images/gtacp.png" class="pack-img">
+                        <a class="pack-text" rel="pdownloads" data-event-id="1866" data-window-width="960" data-window-height="645"><img src="images/gtacp_text.png" class="pack-img"></a>
+                    </div>
+                    <div class="download-btn pack-btn" rel="pdownloads" data-event-id="1866" data-window-width="960" data-window-height="645">СКАЧАТЬ ПАК</div>
+                </div>
+            </div>
+<!--
+            <div class="gpak-sector">
+                <div class="gpak-read">
+                    <span class="gpak-date">#1</span>
+                    <span class="gpak-name">Grand Theft Auto: Ageev City</span>
+
+                </div>
+                <div class="gpak-download" rel="pdownloads" data-event-id="2029" data-window-width="960" data-window-height="645"> Скачать</div>
+            </div>
+-->
+        </div>
+    </div>
+
+    <div class="black-block" id="black">
+        <div class="content">
+            <a href="https://vk.com/origami_net" target="_blank" class="orinet">
+                <img src="images/origami_net.png" class="orinet-logo">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            $("#preloader").animate({
+                opacity: 0
+            }, function() {
+                $("#preloader").css("display", "none");
+            })
+        }, 1000);
+
+        function scrollToAnchor(aid) {
+            var aTag = $("#" + aid);
+            $('html,body').animate({
+                scrollTop: aTag.offset().top
+            }, 'slow');
+        }
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $("#preloader").animate({
+                    opacity: 0
+                }, function() {
+                    $("#preloader").css("display", "none");
+                })
+            }, 1000);
+            $('.play-btn').on('click', function(ev) {
+
+                $(".yt-block img").remove();
+                $(".play-btn").remove();
+                $("#video")[0].src += "&autoplay=1";
+                ev.preventDefault();
+
+            });
+        });
+
+        function scrollToAnchor(aid) {
+            var aTag = $("#" + aid);
+            $('html,body').animate({
+                scrollTop: aTag.offset().top
+            }, 'slow');
+        }
+
+        function ctrl() {
+            $(".soon-modal").css("opacity", "0");
+            $(".soon-modal").css("display", "block");
+            $(".soon-modal").animate({
+                'opacity': 1
+            }, 500);
+        }
+
+        function bcltr() {
+            $(".soon-modal").animate({
+                'opacity': 0
+            }, 500, function() {
+                $(".soon-modal").css("display", "none");
+            });
+        }
+    </script>
+</body>
+
+</html>

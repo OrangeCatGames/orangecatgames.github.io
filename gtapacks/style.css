@@ -1,0 +1,769 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'futuralightc';
+	src: url('fonts/futuralightc.otf');
+}
+
+@font-face {
+	font-family: 'futurafuturisc-bold';
+	src: url('fonts/futurafuturisc-bold.otf');
+}
+
+* {
+	font-family: 'futuralightc';
+	margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+	background: url(images/back.png) center fixed;
+	background-size: cover;
+}
+
+
+.header {
+    display: block;
+    width: 100%;
+    height: 62px;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+		z-index: 3;
+}
+
+.buttons-fb {
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 355px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 14px;
+}
+
+.menu {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.social {
+    display: inline-block;
+    width: 12%;
+    position: relative;
+    top: 19px;
+    right: 20px;
+    float: right;
+}
+
+.vk-social {
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    margin-right: 8px;
+    background: url("images/vk_icon.png");
+    transition: all 1s;
+}
+
+.insta-social {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 8px;
+    background: url(images/insta_icon.png);
+    background-size: cover;
+    position: relative;
+    top: 2px;
+    transition: all 1s;
+}
+
+.youtube-social {
+    display: inline-block;
+    width: 28px;
+    height: 23px;
+    margin-right: 8px;
+    background: url(images/youtube-symbol.svg);
+    background-size: cover;
+    position: relative;
+    top: 2px;
+    transition: all 1s;
+}
+
+.vk-social:hover {
+    background: url("images/vk_icon.png");
+}
+
+.insta-social:hover {
+    background: url("images/insta_icon.png");
+    background-size: cover;
+}
+
+.youtube-social:hover {
+    background: url("images/youtube-symbol.svg");
+    background-size: cover;
+}
+
+.present {
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 5%;
+    font-size: 15pt;
+}
+
+.flame-title {
+			display: block;
+	    width: 699px;
+	    max-width: 100%;
+	    top: -200px;
+	    margin: 0 auto;
+	    position: relative;
+}
+
+.first-block {
+		display: block;
+	    width: 100%;
+	    height: 416px;
+	    position: relative;
+}
+
+.download-btn {
+    display: block;
+    margin: 0 auto;
+    max-width: 174px;
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    padding: 6px 0px 6px 0px;
+    font-size: 13pt;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50px;
+    transition:  all 0.5s;
+    background: #ad2a00;
+    color: white;
+}
+
+.download-btn:hover {
+    background: white;
+    color: black;
+}
+
+.grey-block {
+    display: block;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #000000;
+    margin-top: 11%;
+    position: relative;
+}
+
+.pack-block {
+    display: inline-block;
+    width: 32%;
+    margin-right: 1%;
+}
+
+.pack-preview {
+    display: block;
+    width: 100%;
+    max-height: 680px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pack-img {
+    width: 100%;
+}
+
+.pack-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+    line-height: 450px;
+    text-align: center;
+    font-size: 20pt;
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: futura-pt, sans-serif;
+	text-decoration: none;
+}
+
+.pack-text:hover {
+	opacity: 1;
+}
+
+
+.pack-btn {
+    color: white;
+    margin-top: 7%;
+    background: none;
+}
+
+.about-pack {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 14pt;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.about-pack p {
+	font-family: futura-pt, sans-serif;
+	margin-bottom: 3%;
+}
+
+.bg2-block {
+    background: url(images/og_image.png) top fixed;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.obla-logo {
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.black-block {
+    display: block;
+    width: 100%;
+    background: black;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.orinet-logo {
+    max-width: 100px;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.orinet {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 10%;
+}
+
+.orinet-logo:hover {
+    opacity: 1;
+}
+
+.yt-block {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 450px;
+    position: relative;
+}
+
+.play-btn {
+    display: block;
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    background: url(images/play.png);
+    background-size: cover;
+    top: calc(50% - 78px);
+    left: calc(50% - 78px);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    opacity: 1;
+}
+
+.abs-bg {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/main-bg.png) center top;
+    background-size: cover;
+    /* z-index: -1; */
+}
+
+.bm {
+	display: block;
+}
+
+.bg2-bg {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/og_image.png) top fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.black-gradient {
+    position: fixed;
+    top: 0;
+    left: -50%;
+    width: 50%;
+    height: 125%;
+    box-shadow: 580px 0px 95px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-device-width: 768px) {
+	.gpak-nodownload {
+	    display: block;
+		float: right;
+		width: auto;
+		height: 21px;
+		background: black;
+		color: white;
+		padding: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all 0.3s;
+		font-size: 8pt;
+	}
+	.logo {
+		display: none;
+	}
+	.menu {
+		width: 100%;
+		top: 18px;
+		left: 0;
+	}
+	.social {
+		display: none;
+	}
+	.pack-block {
+		display: block;
+		width: 77%;
+		margin: 0 auto;
+		margin-bottom: 8%;
+	}
+	.about-pack {
+		width: 80%;a
+	}
+	.yt-block {
+		height: 285px;
+	}
+	.yt-block .cl {
+		width: 165%;
+		position: relative;
+		left: -37%;
+	}
+	.pack-text {
+			line-height: 400px;
+			text-align: center;
+			font-size: 16pt;
+	}
+	.first-block {
+			width: 100%;
+	}
+	.black-gradient {
+			top: initial;
+			bottom: -150%;
+			left: -50%;
+			width: 169%;
+			height: 100%;
+			box-shadow: 0px -300px 156px rgb(0, 0, 0);
+	}
+	.abs-bg {
+		background-image: url(images/main-bg.png);
+	}
+	.menu a {
+		font-size: 20pt;
+	}
+	.flame-title {
+		width: 100%;
+top: 5px;
+	}
+
+}
+
+.bm:hover {
+	background: black;
+	color: white;
+}
+
+.pack-top {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 26pt;
+    font-weight: 600;
+}
+
+.gpak-sector {
+    padding: 18px 58px;
+    height: auto;
+    overflow: auto;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+		overflow: hidden;
+}
+
+.gpak-read {
+    display: inline-block;
+    width: 80%;
+}
+
+.gpak-date {
+    display: inline-block;
+    color: #fff;
+    font-size: 12pt;
+    width: 15%;
+    font-family: 'futurafuturisc-bold';
+    font-size: 20pt;
+    text-align: left;
+}
+
+.gpak-name {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14pt;
+    width: 42%;
+    font-size: 20pt;
+    text-align: left;
+    font-weight: 800;
+}
+
+.gpak-club {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14pt;
+    width: 34%;
+    font-size: 20pt;
+    text-align: left;
+}
+
+.gpak-download {
+    display: block;
+    float: right;
+    width: auto;
+    height: 21px;
+    background: black;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 14pt;
+    font-family: 'futurafuturisc-bold';
+	text-decoration: none;
+}
+
+.gpak-nodownload {
+    display: block;
+    float: right;
+    width: auto;
+    height: 21px;
+    background: black;
+    color: white;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    cursor: default;
+    transition: all 0.3s;
+    font-size: 14pt;
+    font-family: 'futurafuturisc-bold';
+	text-decoration: none;
+}
+
+.gpak-download img, .twn2 img {
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+.gpak-read {
+    display: inline-block;
+    width: 80%;
+	color: #fff;
+}
+
+.twn2 {
+    display: block;
+    float: right;
+    width: auto;
+    height: 21px;
+    background: black;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 14pt;
+    font-family: 'futurafuturisc-bold';
+}
+
+.twn2:hover{
+	background: #fff;
+	color: #000;
+}
+
+.gpak-download:before{
+    content: url(images/telega.png);
+	position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+.gpak-download:hover:before{
+    content: url(images/telega2.png);
+	position: relative;
+    top: 2px;
+    left: 4px;
+	color: #000;
+}
+
+.gpak-download:hover{
+	background: #fff;
+	color: #000;
+}
+
+.soon-modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+}
+
+.soon-body {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 14%;
+    top: calc(50% - 7%);
+    left: calc(50% - 25%);
+    background: #ffffff;
+    border-bottom: 2px solid #c71e1e;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.soon-exit {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    color: #616577;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+.soon-title {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 19pt;
+    top: 10px;
+}
+
+@media screen and (max-device-width: 768px) {
+	.gpak-sector {padding: 5px 10px;}
+	.gpak-club {font-size: 8pt;width: 40%;}
+	.gpak-date {
+		font-size: 8pt;
+		width: 14%;
+	}
+	.gpak-name {
+		font-size: 8pt;
+		width: 40%;
+	}
+	.gpak-download, .twn2 {
+		height: 16px;
+		font-size: 8pt;
+	}
+	.gpak-download img, .twn2 img {
+		width: 32px;
+		top: 0px;
+	}
+	.gpak-read {
+		width: 75%;
+	}
+	.gpak-download:before {
+		content: none;
+	    top: 0px;
+		left: 0px;
+	}
+	.gpak-download {
+	    display: block;
+		float: right;
+		width: auto;
+		height: 21px;
+		background: black;
+		color: white;
+		padding: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all 0.3s;
+		font-size: 8pt;
+		font-family: 'futurafuturisc-bold';
+	}
+	.gpak-download:hover:before{
+		content: none;
+	    top: 0px;
+		left: 0px;
+		color: #000;
+	}
+	.gpak-read {
+		width: 65%;
+	}
+	.soon-body {
+		width: 90%;
+		left: calc(50% - 45%);
+	}
+	.soon-title {
+		top: 0;
+	}
+		.gpak-nodownload {
+	    display: block;
+		float: right;
+		width: auto;
+		height: 21px;
+		background: black;
+		color: white;
+		padding: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all 0.3s;
+		font-size: 8pt;
+	}
+}
+
+@media screen and (max-device-width: 320px) {
+	.gpak-sector {padding: 5px 10px;}
+	.gpak-club {font-size: 8pt;width: 40%;}
+	.gpak-date {
+		font-size: 8pt;
+		width: 14%;
+	}
+	.gpak-name {
+		font-size: 8pt;
+		width: 40%;
+	}
+	.gpak-download, .twn2 {
+		height: 16px;
+		font-size: 8pt;
+	}
+	.gpak-download img, .twn2 img {
+		width: 32px;
+		top: 0px;
+	}
+	.gpak-read {
+		width: 75%;
+	}
+	.gpak-download:before {
+		content: none;
+	    top: 0px;
+		left: 0px;
+	}
+	.gpak-nodownload {
+	    display: block;
+		float: right;
+		width: auto;
+		height: 21px;
+		background: black;
+		color: white;
+		padding: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all 0.3s;
+		font-size: 8pt;
+		font-family: 'futurafuturisc-bold';
+	}
+	.gpak-download {
+	    display: block;
+		float: right;
+		width: auto;
+		height: 21px;
+		background: black;
+		color: white;
+		padding: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all 0.3s;
+		font-size: 8pt;
+		font-family: 'futurafuturisc-bold';
+	}
+	.gpak-download:hover:before{
+		content: none;
+	    top: 0px;
+		left: 0px;
+		color: #000;
+	}
+
+	.gpak-read {
+		width: 65%;
+	}
+	.soon-body {
+		width: 90%;
+		left: calc(50% - 45%);
+	}
+	.soon-title {
+		top: 0;
+	}
+
+}
