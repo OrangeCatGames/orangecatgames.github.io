@@ -26,14 +26,13 @@ body {
 	background-size: cover;
 }
 
-
 .header {
     display: block;
     width: 100%;
     height: 62px;
     background: rgba(0, 0, 0, 0.65);
     position: relative;
-		z-index: 3;
+	z-index: 3;
 }
 
 .buttons-fb {
