@@ -204,6 +204,7 @@ body {
 }
 
 .pack-text {
+    z-index: 10;
     position: absolute;
     left: 0;
     top: 0;
@@ -216,15 +217,46 @@ body {
     font-size: 20pt;
     opacity: 0;
     transition: all 0.5s;
-    cursor: pointer;
     font-family: futura-pt, sans-serif;
 	text-decoration: none;
 }
 
 .pack-text:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
+.glow {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.glow:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(14deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0.0) 100%);
+}
+
+.glow:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+}
+
+.glow:active:after {
+    opacity: 0;
+}
 
 .pack-btn {
     color: white;
