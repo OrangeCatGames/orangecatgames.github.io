@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style.css" media="screen">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/jqSoundS.js"></script>
 
 </head>
 
@@ -53,7 +54,7 @@
             <div class="pack-new-block" style="margin-bottom: 5%;">
                 <div class="pack-block">
                     <span class="pack-top">Grand Theft Auto Winter Perfection 2020</span>
-                    <div class="pack-preview glow">
+                    <div class="pack-preview glow pack1">
                         <img src="images/gtawp2020.png" class="pack-img">
 					<a class="pack-text" rel="pdownloads" data-event-id="1668" data-window-width="960" data-window-height="645"><img src="images/gtawp2020_text.png" class="pack-img"></a>
                     </div>
@@ -61,7 +62,7 @@
                 </div>
                 <div class="pack-block">
                     <span class="pack-top">Grand Theft Auto Russian Advanced</span>
-                    <div class="pack-preview glow">
+                    <div class="pack-preview glow pack2">
                         <img src="images/gtara.png" class="pack-img">
 					<a class="pack-text" rel="pdownloads" data-event-id="1671" data-window-width="960" data-window-height="645"><img src="images/gtara_text.png" class="pack-img"></a>
                     </div>
@@ -69,7 +70,7 @@
                 </div>
                 <div class="pack-block">
                     <span class="pack-top">Grand Theft Auto Cyberpunk</span>
-                    <div class="pack-preview glow">
+                    <div class="pack-preview glow pack3">
                         <img src="images/gtacp.png" class="pack-img">
 					<a class="pack-text" rel="pdownloads" data-event-id="1866" data-window-width="960" data-window-height="645"><img src="images/gtacp_text.png" class="pack-img"></a>
                     </div>
@@ -155,6 +156,34 @@
                 $(".soon-modal").css("display", "none");
             });
         }
+    </script>
+    <script>
+		$('.pack1').mouseenter(function(){
+			$.stopSnd();
+			$.playSnd('audio/audio1.mp3');
+		});
+
+		$('.pack1').mouseleave(function(){
+			$.stopSnd();
+		});
+		
+		$('.pack2').mouseenter(function(){
+			$.stopSnd();
+			$.playSnd('audio/audio2.mp3');
+		});
+
+		$('.pack2').mouseleave(function(){
+			$.stopSnd();
+		});
+		
+		$('.pack3').mouseenter(function(){
+			$.stopSnd();
+			$.playSnd('audio/audio3.mp3');
+		});
+
+		$('.pack3').mouseleave(function(){
+			$.stopSnd();
+		});
     </script>
 </body>
 
