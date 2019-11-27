@@ -1,0 +1,106 @@
+.orinet-logo {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 24px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	color: #08C941;
+	font-weight: 400;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: none;
+	
+	position: absolute;
+	left: 96px;
+	letter-spacing: .15em;
+	text-shadow: 1px -1px 0 #767676, -1px 2px 1px #007200, -2px 4px 1px #007400, -3px 6px 1px #007700, -4px 8px 1px #007a00;
+}
+
+.new-btn {
+    z-index: 10;
+    position: absolute;
+	left: 0px;
+	top: 0px;
+	-moz-box-shadow: 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow: 0px 1px 0px 0px #f29c93;
+	box-shadow: 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:0px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+}
+.new-btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+	transition: 0.1s;
+}
+.new-btn:active {
+	position:relative;
+	transition: 0.1s;
+	top:1px;
+}
+
+.special-link {
+    z-index: 10;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    font-family: futura-pt, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-transiton: .2s all linear;
+}
+
+.body {
+  text-rendering: optimizeLegibility;
+}
+
+.special-link:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.special-link:link {
+	margin: 0;
+	font: bold 12px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+	-webkit-transition: .2s all linear;
+	font-family: Garamond, serif;
+	line-height: 1em;
+	color: #fff9d6;
+	font-weight:bold;
+	font-size: 12px;
+	text-shadow:0px 0px 0 rgb(208,208,208),1px 1px 0 rgb(173,173,173), 2px 2px 0 rgb(138,138,138),3px 3px 2px rgba(0,0,0,0.6),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);}
+}
+
+.special-link:hover {
+  text-decoration: underline;
+}
