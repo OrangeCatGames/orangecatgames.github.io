@@ -91,10 +91,10 @@
           </li>
           <li class="l-section section">
             <div class="about">
-				<a href="gtapacks/index.html"><h1 class="sborks1">Сборки GTA</h2></a>
-				<a href="#"><h1 class="sborks2">Сборки CS</h2></a>
-				<a href="#"><h1 class="sborks3">Сборки Minecraft</h2></a>
-				<a href="#"><h1 class="sborks4">Сборки DooM</h2></a>
+				<a class="multer1" href="gtapacks/index.html"><h1 class="sborks1">Сборки GTA</h2></a>
+				<a class="multer2" id="multer22" href="#"><h1 class="sborks2">Сборки CS</h2></a>
+				<a class="multer3" href="#"><h1 class="sborks3">Сборки Minecraft</h2></a>
+				<a class="multer4" href="#"><h1 class="sborks4">Сборки DooM</h2></a>
                 <img class="doomguyfix" src="assets/img/about-visual.png">
             </div>
           </li>
@@ -146,9 +146,61 @@
     <li>Контакты</li>
   </ul>
 </div>
-
+<!-- <div style="visibility:hidden" id="vidos2">
+	<video id="vidos1" preload="auto" autoplay="false" loop="loop" muted="muted" volume="0" poster="assets/img/vidos.png" id="video">
+		<source src="assets/LollyBomb.mp4" type="video/mp4" id="source-video">
+	</video>
+</div> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="gtapacks/js/jqSoundS.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script>
+		var timer;
+		
+        $('.multer1').mouseenter(function() {
+            $.stopSnd();
+            $.playSnd('audio/audio1.mp3');
+        });
+
+        $('.multer1').mouseleave(function() {
+            $.stopSnd();
+        });
+
+        $('.multer2').mouseenter(function() {
+            $.stopSnd();
+            $.playSnd('audio/audio2.mp3');
+			timer = setTimeout(function()
+			{
+				var vidos0 = document.getElementById('vidos1');
+				vidos0.show();
+				vidos0.play();
+				vidos0.muted = false;
+				vidos0.volume = 1.1;
+			},5000);
+        });
+
+        $('.multer2').mouseleave(function() {
+            $.stopSnd();
+        });
+
+        $('.multer3').mouseenter(function() {
+            $.stopSnd();
+            $.playSnd('audio/audio3.mp3');
+        });
+
+        $('.multer3').mouseleave(function() {
+            $.stopSnd();
+        });
+
+        $('.multer4').mouseenter(function() {
+            $.stopSnd();
+            $.playSnd('audio/audio3.mp3');
+        });
+
+        $('.multer4').mouseleave(function() {
+            $.stopSnd();
+        });
+</script>
 <script src="assets/js/functions-min.js"></script>
 <script src="assets/js/video.js"></script>
 </body>

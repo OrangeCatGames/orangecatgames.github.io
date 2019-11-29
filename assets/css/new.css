@@ -418,3 +418,7 @@ a:hover, a:visited, a:link, a:active {
 .sborks4:visited {
 	text-decoration: none;
 }
+
+#vidos2 {
+	object-fit: cover;
+}
