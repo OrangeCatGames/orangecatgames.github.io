@@ -17,10 +17,10 @@
 }
 
 .new-btn {
-    z-index: 10;
+    z-index: 11;
     position: absolute;
-	left: 0px;
-	top: 0px;
+	left: 85%;
+	margin: 10% auto;
 	-moz-box-shadow: 0px 1px 0px 0px #f29c93;
 	-webkit-box-shadow: 0px 1px 0px 0px #f29c93;
 	box-shadow: 0px 1px 0px 0px #f29c93;
@@ -103,4 +103,49 @@
 
 .special-link:hover {
   text-decoration: underline;
+}
+
+.YTV-0 {
+    z-index: 10;
+    position: absolute;
+	left: 5%;
+	top: 55%;
+	transition: 0.1s;
+	margin: 0;
+}
+
+.YTV-1 {
+    z-index: 10;
+    position: absolute;
+	left: 10%;
+	top: 15%;
+	transition: 0.1s;
+	margin: 0;
+}
+
+.YTV-2 {
+    z-index: 10;
+    position: absolute;
+	left: 60%;
+	top: 15%;
+	transition: 0.1s;
+	margin: 0;
+}
+
+.YTV-3 {
+    z-index: 10;
+    position: absolute;
+	left: 10%;
+	top: 55%;
+	transition: 0.1s;
+	margin: 0;
+}
+
+.YTV-4 {
+    z-index: 10;
+    position: absolute;
+	left: 60%;
+	top: 55%;
+	transition: 0.1s;
+	margin: 0;
 }
