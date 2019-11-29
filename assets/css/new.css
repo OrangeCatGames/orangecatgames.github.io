@@ -167,8 +167,6 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: none!important;
 }
 
-/* SBORKS1 */
-
 .sborks1 {
 	opacity: 0%;
 	line-height: 2em;
@@ -223,8 +221,6 @@ a:hover, a:visited, a:link, a:active {
 .sborks1:visited {
 	text-decoration: none;
 }
-
-/* SBORKS2 */
 
 .sborks2 {
 	opacity: 0%;
@@ -287,8 +283,6 @@ a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 }
 
-/* sborks3 */
-
 .sborks3 {
 	opacity: 0%;
 	line-height: 2em;
@@ -349,8 +343,6 @@ a:hover, a:visited, a:link, a:active {
 .sborks3:visited {
 	text-decoration: none;
 }
-
-/* sborks4 */
 
 .sborks4 {
 	opacity: 0%;
