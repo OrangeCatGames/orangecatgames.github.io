@@ -7,13 +7,13 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 
 function onYouTubeIframeAPIReady() {
-	player = new YT.Player('ytplayer', {
-	events: {
-			'onReady': onPlayerReady
-		}
-	});
+    player = new YT.Player('ytplayer', {
+        events: {
+            'onReady': onPlayerReady
+        }
+    });
 }
 
 function onPlayerReady() {
-	player.playVideo();
+    player.playVideo();
 }
