@@ -10,6 +10,10 @@
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/new.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="tooltip.css">
 </head>
 <body>
 
@@ -118,20 +122,17 @@
           </li>
           <li class="l-section section">
             <div class="hire" id="contracts">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <label for="opt-1">App Design</label>
-                    <label for="opt-2">Graphic Design</label>
-                    <label for="opt-3">Motion Design</label>
-                  </span>
-                  <span class="options-b">
-                    <label for="opt-4">UX Design</label>
-                    <label for="opt-5">Webdesign</label>
-                    <label for="opt-6">Marketing</label>
-                  </span>
-                </div>
+				<!-- <div class="box">
+					<img src="assets/img/belochka.png" class="glitch">
+				</div> -->
+				<h2 class="layer">Связь со мной</h2></br></br></br>
+				<ul class="socialIcons">
+					<li><a onMouseOver="toolTip('Группа ВК')" onMouseOut="toolTip()" href="#" class="vk"><i class="fa fa-vk"></i></a></li>
+					<li><a onMouseOver="toolTip('Стим')" onMouseOut="toolTip()" href="#" class="steam"><i class="fa fa-steam"></i></a></li>
+					<li><a onMouseOver="toolTip('Инста')" onMouseOut="toolTip()" href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+					<li><a onMouseOver="toolTip('Ютуб Канал')" onMouseOut="toolTip()" href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+					<li><a onMouseOver="toolTip('Моя страница ВК')" onMouseOut="toolTip()" href="#" class="vk"><i class="fa fa-vk"></i></a></li>
+				</ul>
             </div>
           </li>
         </ul>
@@ -145,6 +146,7 @@
     <li>Прочее</li>
     <li>Контакты</li>
   </ul>
+  <div id="floatTip"></div>
 </div>
 <!-- <div style="visibility:hidden" id="vidos2">
 	<video id="vidos1" preload="auto" autoplay="false" loop="loop" muted="muted" volume="0" poster="assets/img/vidos.png" id="video">
@@ -203,5 +205,6 @@
 </script>
 <script src="assets/js/functions-min.js"></script>
 <script src="assets/js/video.js"></script>
+<script src="tooltip.js"></script>
 </body>
 </html>

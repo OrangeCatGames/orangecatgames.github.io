@@ -1,7 +1,6 @@
 .orinet-logo {
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 24px;
-	letter-spacing: 0px;
 	word-spacing: 0px;
 	color: #08C941;
 	font-weight: 400;
@@ -90,9 +89,9 @@
 .special-link:link {
 	margin: 0;
 	font: bold 12px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
-	text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 	-webkit-transition: .2s all linear;
+	-moz-transition: .2s all linear;
+	-o-transition: .2s all linear;
 	font-family: Garamond, serif;
 	line-height: 1em;
 	color: #fff9d6;
@@ -162,13 +161,14 @@
 }
 
 a:hover, a:visited, a:link, a:active {
-    text-decoration: none!important;
-    -webkit-box-shadow: none!important;
-    box-shadow: none!important;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .sborks1 {
-	opacity: 0%;
+	opacity: 1;
 	line-height: 2em;
 	left: 0%;
 	margin: 0% auto;
@@ -178,7 +178,7 @@ a:hover, a:visited, a:link, a:active {
 	color: #08C941;
 	font-weight: 400;
 	text-decoration: none;
-	font-style: bold;
+	
 	font-variant: small-caps;
 	text-transform: none;
 	letter-spacing: .15em;
@@ -201,9 +201,10 @@ a:hover, a:visited, a:link, a:active {
 
 .sborks1:hover {
 	-webkit-animation: sborks1-hover 1s infinite;
+	-moz-animation: sborks1-hover 1s infinite;
 	animation: sborks1-hover 1s infinite;
 	text-shadow: 1px -1px 0 #333, -1px 2px 1px #333;
-	opacity: 0%;
+	opacity: 1;
 	border-bottom-color: green;
 	text-decoration: none;
     position: relative;
@@ -223,7 +224,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .sborks2 {
-	opacity: 0%;
+	opacity: 1;
 	line-height: 2em;
 	left: 0%;
 	margin: 0% auto;
@@ -233,7 +234,7 @@ a:hover, a:visited, a:link, a:active {
 	color: #08C941;
 	font-weight: 400;
 	text-decoration: none;
-	font-style: bold;
+	
 	font-variant: small-caps;
 	text-transform: none;
 	letter-spacing: .15em;
@@ -262,9 +263,10 @@ a:hover, a:visited, a:link, a:active {
 
 .sborks2:hover {
 	-webkit-animation: sborks2-hover 5s;
+	-moz-animation: sborks2-hover 5s;
 	animation: sborks2-hover 5s;
 	text-shadow: 1px -1px 0 #333, -1px 2px 1px #333;
-	opacity: 0%;
+	opacity: 1;
 	border-bottom-color: green;
 	text-decoration: none;
     position: relative;
@@ -284,7 +286,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .sborks3 {
-	opacity: 0%;
+	opacity: 1;
 	line-height: 2em;
 	left: 0%;
 	margin: 0% auto;
@@ -294,7 +296,7 @@ a:hover, a:visited, a:link, a:active {
 	color: #08C941;
 	font-weight: 400;
 	text-decoration: none;
-	font-style: bold;
+	
 	font-variant: small-caps;
 	text-transform: none;
 	letter-spacing: .15em;
@@ -323,9 +325,10 @@ a:hover, a:visited, a:link, a:active {
 
 .sborks3:hover {
 	-webkit-animation: sborks3-hover 2s infinite;
+	-moz-animation: sborks3-hover 2s infinite;
 	animation: sborks3-hover 2s infinite;
 	text-shadow: 1px -1px 0 #333, -1px 2px 1px #333;
-	opacity: 0%;
+	opacity: 1;
 	border-bottom-color: green;
 	text-decoration: none;
     position: relative;
@@ -345,7 +348,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .sborks4 {
-	opacity: 0%;
+	opacity: 1;
 	line-height: 2em;
 	left: 0%;
 	margin: 0% auto;
@@ -355,7 +358,7 @@ a:hover, a:visited, a:link, a:active {
 	color: #08C941;
 	font-weight: 400;
 	text-decoration: none;
-	font-style: bold;
+	
 	font-variant: small-caps;
 	text-transform: none;
 	letter-spacing: .15em;
@@ -398,9 +401,10 @@ a:hover, a:visited, a:link, a:active {
 
 .sborks4:hover {
 	-webkit-animation: sborks4-hover1 3s 1 linear, sborks4-hover2 6s infinite linear;
+	-moz-animation: sborks4-hover1 3s 1 linear, sborks4-hover2 6s infinite linear;
 	animation: sborks4-hover1 3s 1 linear, sborks4-hover2 6s infinite linear;
 	text-shadow: 1px -1px 0 #333, -1px 2px 1px #333;
-	opacity: 0%;
+	opacity: 1;
 	border-bottom-color: green;
 	text-decoration: none;
     position: relative;
@@ -419,6 +423,234 @@ a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
 }
 
-#vidos2 {
-	object-fit: cover;
+.socialIcons {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 70px;
+  text-align: center;
+}
+.socialIcons li {
+  display: inline-block;
+  margin: auto 10px;
+}
+.socialIcons li a {
+  text-align: center;
+  display: inline-block;
+  font-size: 4rem;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  color: #008800;
+  transition: all ease 0.5s;
+  text-shadow: 0px 0px 1px black, 0px 0px 1px black;
+  transform: rotateX(-30deg);
+}
+.socialIcons li a:hover {
+  transform: rotateX(-30deg) translateY(-20px);
+}
+.socialIcons li a:hover.vk {
+  color: #00FF00;
+  text-shadow: 0px 0px 0px #00FF00,0px 1px 2px #008800,0px 2px 2px #009900,0px 3px 2px #00aa00,0px 4px 2px #00bb00,0px 5px 2px #00cc00,0px 6px 2px #00dd00,0px 7px 2px #00ee00,0px 8px 2px #00ff00,0px 9px 2px black,0px 10px 2px black;
+}
+.socialIcons li a:hover.steam {
+  color: #00FF00;
+  text-shadow: 0px 0px 0px #00FF00,0px 1px 2px #008800,0px 2px 2px #009900,0px 3px 2px #00aa00,0px 4px 2px #00bb00,0px 5px 2px #00cc00,0px 6px 2px #00dd00,0px 7px 2px #00ee00,0px 8px 2px #00ff00,0px 9px 2px black,0px 10px 2px black;
+}
+.socialIcons li a:hover.instagram {
+  color: #00FF00;
+  text-shadow: 0px 0px 0px #00FF00,0px 1px 2px #008800,0px 2px 2px #009900,0px 3px 2px #00aa00,0px 4px 2px #00bb00,0px 5px 2px #00cc00,0px 6px 2px #00dd00,0px 7px 2px #00ee00,0px 8px 2px #00ff00,0px 9px 2px black,0px 10px 2px black;
+}
+.socialIcons li a:hover.googlePlus {
+  color: #00FF00;
+  text-shadow: 0px 0px 0px #00FF00,0px 1px 2px #008800,0px 2px 2px #009900,0px 3px 2px #00aa00,0px 4px 2px #00bb00,0px 5px 2px #00cc00,0px 6px 2px #00dd00,0px 7px 2px #00ee00,0px 8px 2px #00ff00,0px 9px 2px black,0px 10px 2px black;
+}
+.socialIcons li a:hover.youtube {
+  color: #00FF00;
+  text-shadow: 0px 0px 0px #00FF00,0px 1px 2px #008800,0px 2px 2px #009900,0px 3px 2px #00aa00,0px 4px 2px #00bb00,0px 5px 2px #00cc00,0px 6px 2px #00dd00,0px 7px 2px #00ee00,0px 8px 2px #00ff00,0px 9px 2px black,0px 10px 2px black;
+}
+
+.layer {
+  font: 25px/0.65 'Helvetica Neue', 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+  white-space: pre;
+  text-align: center;
+  color: #fff;
+  letter-spacing: -2px;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    line-height: 1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+.box {
+  width: 33%;
+  position: relative;
+  height: 100%;
+  &.small {
+    background-color: #86D0F2;
+  }
+  &.medium {
+    background-color: #F4C4D5;
+  }
+}
+.glitch {
+  font-size: 130px;
+  line-height: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  &:before,
+  &:after{
+    display: block;
+    content: '10';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+  }
+  &:after {
+    color: #f0f;
+    z-index: -2;
+  }
+  &:before {
+    color: #0ff;
+    z-index: -1;
+  }
+  &:hover {
+    &:before {
+      animation: glitch-left .3s cubic-bezier(.25, .46, .45, .94) both infinite
+    }
+    &:after {
+      animation: glitch-left-2 .3s cubic-bezier(.25, .46, .45, .94) reverse both infinite
+    }
+  }
+  .small & {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    &:before,
+    &:after{
+      content: 'Start';
+    }
+    &:after {
+      color: #F40080;
+    }
+    &:before {
+      color: #7FA500;
+    }
+    &:hover {
+    &:before {
+        animation: glitch-small .5s cubic-bezier(.25, .46, .45, .94) both infinite
+      }
+      &:after {
+        animation: glitch-small .5s cubic-bezier(.25, .46, .45, .94) reverse both infinite
+      }
+    }
+  }
+  .medium & {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #4222F1;
+    &:before,
+    &:after{
+      content: 'CSS Glitch';
+    }
+    &:after {
+      color: #C487C2;
+    }
+    &:before {
+      color: #00FF02;
+    }
+    &:hover {
+    &:before {
+        animation: glitch-medium .5s cubic-bezier(.25, .46, .45, .94) both infinite
+      }
+      &:after {
+        animation: glitch-medium .5s cubic-bezier(.25, .46, .45, .94) reverse both infinite
+      }
+    }
+  }
+}
+@keyframes glitch-small {
+    0% {
+        transform: translate(0)
+    }
+    33% {
+        transform: translate(2px, 1px)
+    }
+    66% {
+        transform: translate(-1px, -1px)
+    }
+    to {
+        transform: translate(0)
+    }
+}
+@keyframes glitch-medium {
+    0% {
+        transform: translate(0)
+    }
+    20% {
+        transform: translate(-2px, 2px)
+    }
+    40% {
+        transform: translate(-2px, -2px)
+    }
+    60% {
+        transform: translate(2px, 2px)
+    }
+    80% {
+        transform: translate(2px, -2px)
+    }
+    to {
+        transform: translate(0)
+    }
+}
+@keyframes glitch-left {
+    0% {
+        transform: translate(0)
+    }
+    33% {
+        transform: translate(-5px, 3px)
+    }
+    66% {
+        transform: translate(5px, -3px)
+    }
+    to {
+        transform: translate(0)
+    }
+}
+@keyframes glitch-left-2 {
+    0% {
+        transform: translate(0)
+    }
+    33% {
+        transform: translate(-5px, -3px)
+    }
+    66% {
+        transform: translate(5px, 2px)
+    }
+    to {
+        transform: translate(0)
+    }
 }
