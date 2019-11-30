@@ -108,7 +108,12 @@
                             </div>
                         </li>
                         <li class="l-section section">
-
+							<div class="vremenno" >
+								<img src="assets/img/obomne.png">
+							</div>
+							<div class="😎">
+								<a>Меня зовут Вадим, мне 20 лет. Я молодой, перспективный стример. Провожу стримы и конкурсы. Подписывайтесь на мой канал YouTube и всё у вас будет опачки попачки))) Каждому новому подписчику буду рад :)</a>
+							</div>
                         </li>
                         <li class="l-section section">
                             <div class="hire" id="contracts">
@@ -193,6 +198,10 @@
         window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
     </script>
     <script>
+		$('[data-text]').on('keyup', function(){
+		$(this).attr('data-text', $(this).text());
+		});
+		
         var timer;
 
         $('.multer1').mouseenter(function() {
