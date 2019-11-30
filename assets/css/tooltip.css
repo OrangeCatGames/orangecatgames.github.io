@@ -1,0 +1,59 @@
+/* tooltip.css -- fancy tooltips */
+
+span.tool {
+  position: relative;   /* this is key */
+  cursor: help;
+}
+
+span.tool span.tip {
+  display: none;        /* so is this */
+}
+
+/* tooltip will display on :hover event */
+
+span.tool:hover span.tip {
+  display: block;
+  z-index: 100;
+  position: absolute;
+  top: 1.6em;
+  left: 0;
+  width: auto;
+  padding: 3px 7px 4px 6px;
+  border: 1px solid #252525;
+  background-color: #eeeeee;
+  font: normal 1.0em arial, helvetica, sans-serif;
+  text-align: left;
+  color: #101010;
+  text-decoration: underline;
+}
+
+#1floatTip {
+  position: absolute; /* Абсолютное позиционирование */
+  width: 250px; /* Ширина блока */
+  display: none; /* Прячем от показа */
+  border: 1px solid #000; /* Параметры рамки */
+  padding: 4px; /* Поля вокруг  текста */
+  font-family: sans-serif; /* Рубленый шрифт */
+  font-size: 9pt; /* Размер  шрифта */
+  color: #000; /* Цвет текста */
+  background: #00FF00; /* Цвет фона */
+}
+
+#floatTip {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  display: none;
+  min-width: auto;
+  padding: 3px 8px;
+  white-space: nowrap;
+  font-family: sans-serif; /* Рубленый шрифт */
+  font-size: 12px;
+  text-align: left;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  color: #000;
+  box-shadow: 0 5px 5px #00FF00;
+}
+
+/* tooltip.css */
