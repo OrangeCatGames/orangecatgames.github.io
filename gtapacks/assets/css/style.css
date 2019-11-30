@@ -1,11 +1,11 @@
 @charset "utf-8";
  @font-face {
      font-family: 'futuralightc';
-     src: url('fonts/futuralightc.otf');
+     src: url('../fonts/futuralightc.otf');
 }
  @font-face {
      font-family: 'futurafuturisc-bold';
-     src: url('fonts/futurafuturisc-bold.otf');
+     src: url('../fonts/futurafuturisc-bold.otf');
 }
  * {
      font-family: 'futuralightc';
